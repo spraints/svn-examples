@@ -8,5 +8,6 @@ namespace AVs2012Project
 {
     public class Class1
     {
+        // Added in VS.
     }
 }
