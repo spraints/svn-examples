@@ -1,0 +1,7 @@
+hi!
+
+This file has windows newlines (crlf).
+
+$ head -n 1 dossy.txt | od -t x1 
+0000000    68  69  21  0d  0a
+0000005

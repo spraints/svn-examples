@@ -1,0 +1,7 @@
+hi!
+
+This file has unix newlines (lf).
+
+$ head -n 1 unixy.txt | od -t x1 
+0000000    68  69  21  0a
+0000004
