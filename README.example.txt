@@ -3,3 +3,4 @@ This is a sample svn project
 Hola.
 Guten Tag.
 Bonjour.
+Hi.
