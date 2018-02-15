@@ -1,0 +1,6 @@
+# Hello world
+queue:
+  name: 'Default'
+
+steps:
+- script: 'echo hello world 3'
