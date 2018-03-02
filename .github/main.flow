@@ -1,4 +1,4 @@
 task "ci" {
-  provider = "github-launch/microsoft-vsts-ci"
+  use = "github-launch/microsoft-vsts-ci"
   config = ".vsts/microsoft.yml"
 }
