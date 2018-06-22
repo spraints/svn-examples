@@ -1,4 +1,8 @@
+flow "yes please" {
+  on = "push"
+  resolves = ["ci"]
+}
+
 task "ci" {
-  use = "github-launch/microsoft-vsts-ci"
-  config = ".vsts/microsoft.yml"
+  uses = "oz-the-great-and-powerful"
 }
