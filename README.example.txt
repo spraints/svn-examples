@@ -1,5 +1,2 @@
 This is a sample svn project.
-☃
-yo
-hi
-yay
+I use it for more than just SVN! 🙀
