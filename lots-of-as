@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+N = ARGV.first.to_i
+
+AS = (["a"*1024]*1024).join("\n")
+
+n = 1 + N/AS.size
+puts n
+n.times do
+  puts AS
+end
