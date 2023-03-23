@@ -1,11 +1,8 @@
 #!/usr/bin/env ruby
 
-N = ARGV.first.to_i
+MB = ARGV[0].to_i
+LETTER = ARGV[1] || "b"
 
-AS = (["a"*1024]*1024).join("\n")
+KB = LETTER*1024 + "\n"
 
-n = 1 + N/AS.size
-puts n
-n.times do
-  puts AS
-end
+(MB * 1024).times { puts KB }
